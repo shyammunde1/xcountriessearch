@@ -24,7 +24,7 @@ const CountrySearch = () => {
   const Tile = ({ flagUrl, name, altFlag }) => {
     return (
       <>
-        <div className="card">
+        <div className="countryCard">
           <img
             src={flagUrl}
             alt={altFlag}
@@ -54,7 +54,7 @@ const CountrySearch = () => {
         value={searchCountry}
         onChange={searchCountrieHandler}
       />
-      <div className="countryCard">
+      <div className="container">
         {apiFilterCountry.map((country) => (
           <Tile
             key={country.flags.png}

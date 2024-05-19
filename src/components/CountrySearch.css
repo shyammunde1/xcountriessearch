@@ -1,4 +1,4 @@
-.countryCard {
+.container {
   display: flex;
   height: 100vh;
   flex-wrap: wrap;
@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-.card {
+.countryCard {
   display: flex;
   justify-content: center;
   align-items: center;
