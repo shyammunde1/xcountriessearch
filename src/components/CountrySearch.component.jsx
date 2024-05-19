@@ -54,7 +54,7 @@ const CountrySearch = () => {
         value={searchCountry}
         onChange={searchCountrieHandler}
       />
-      <div className="container">
+      <div className="countryCard">
         {apiFilterCountry.map((country) => (
           <Tile
             key={country.flags.png}
